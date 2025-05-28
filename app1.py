@@ -76,7 +76,7 @@ demo=gr.Interface(
         lines=1,
         value="Tell me about the game and score of the teams."
     )],
-    "text",title="Current Game",css="footer {visibility: hidden}",allow_flagging="never",submit_btn=gr.Button("Search")
+    "text",title="Score Signal",css="footer {visibility: hidden}",allow_flagging="never",submit_btn=gr.Button("Search")
 )
 
 if __name__=='__main__':
